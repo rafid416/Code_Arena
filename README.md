@@ -10,4 +10,5 @@ You can test drive the website by following this link: http://www.rafidasira.com
 
 * HTML
 * CSS
+* Jquery
 * Illustrator - Logo Creation
