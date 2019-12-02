@@ -1,6 +1,6 @@
 # Code_Arena
 
-> A JS Bin clone website created with Jquery, CSS and HTML. 
+> A JS Bin clone web application created with Jquery, CSS and HTML. 
 
 ## Live Demo
 
