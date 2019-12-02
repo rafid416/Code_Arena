@@ -1,0 +1,48 @@
+
+<html>
+    <head>
+    
+        <title>CodeArena</title>
+        <link rel="stylesheet" href="codearena.css">
+    </head>
+    <body>
+        
+        <div id="header">
+        
+            <div id="logo">
+            
+                <img src="logo.png" alt="">
+                
+            </div>
+            
+            <div id="buttonContainer">
+                
+                <div class="toggleButton active" id="html">HTML</div>
+                
+                <div class="toggleButton" id="css">CSS</div>
+                
+                <div class="toggleButton" id="javascript">JavaScript</div>
+                
+                <div class="toggleButton active" id="output">Output</div>
+            
+            </div>
+        
+        </div>
+        
+        <div id="bodyContainer">
+        
+            <textarea id="htmlPanel" class="panel"><p id="paragraph">Try Me!</p></textarea>
+            
+            <textarea id="cssPanel" class="panel hidden">p { color: green; }</textarea>
+            
+            <textarea id="javascriptPanel" class="panel hidden" >document.getElementById("paragraph").innerHTML = "Hello Universe!";</textarea>
+            
+            <iframe id="outputPanel" class="panel"></iframe>
+        
+        
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>    
+        <script type="text/javascript" src="codeArena.js"></script>
+    </body>
+
+</html>
